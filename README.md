@@ -19,13 +19,4 @@ A lightweight, blazing-fast, multi-threaded API performance and load testing lib
 
 ---
 
-## 🚀 Installation
-
-Install the package directly from PyPI alongside its required cross-platform dependencies:
-
-```bash
-pip install hammerapi
-```
-
-
 <a href="https://www.flaticon.com/free-icons/hammer" title="hammer icons">Hammer icons created by nawicon - Flaticon</a>

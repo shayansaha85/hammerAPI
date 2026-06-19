@@ -19,4 +19,9 @@ A lightweight, blazing-fast, multi-threaded API performance and load testing lib
 
 ---
 
+**Report Snapshot**
+
+![report_snapshot](sample-report.jpeg)
+
+---
 <a href="https://www.flaticon.com/free-icons/hammer" title="hammer icons">Hammer icons created by nawicon - Flaticon</a>

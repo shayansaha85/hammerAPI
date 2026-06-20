@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "hammerAPI"
-version = "0.1.2"
+version = "0.1.0"
 description = "A lightweight, blazing-fast, multi-threaded API performance and load testing library for Python. HammerAPI allows you to orchestrate parallel API requests smoothly while automatically collecting cross-platform hardware telemetry (CPU/RAM usage) from your local machine, compiling everything into a self-contained, interactive HTML dashboard."
 readme = "README.md"
 requires-python = ">=3.8"

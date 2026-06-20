@@ -1,16 +1,18 @@
 [build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [project]
-name = "hammerapi"
+name = "hammerAPI"
 version = "0.1.0"
-authors = [
-    { name="Shayan Saha", email="shayan851997@gmail.com" },
-]
-description = "A swift multi-threaded API performance testing library with integrated local hardware monitoring and interactive dash outputs."
+description = "A lightweight, blazing-fast, multi-threaded API performance and load testing library for Python. HammerAPI allows you to orchestrate parallel API requests smoothly while automatically collecting cross-platform hardware telemetry (CPU/RAM usage) from your local machine, compiling everything into a self-contained, interactive HTML dashboard."
 readme = "README.md"
 requires-python = ">=3.8"
+license = {text = "MIT"} # Change if you use a different license
+
+authors = [
+    {name = "Shayan", email = "shayan851997@gmail.com"}
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -20,3 +22,10 @@ dependencies = [
     "httpx>=0.24.0",
     "psutil>=5.9.0"
 ]
+
+[project.urls]
+"Homepage" = "https://github.com/shayansaha85/hammerAPI"
+
+# This section explicitly tells Hatch to look inside the src/ folder
+[tool.hatch.build.targets.wheel]
+packages = ["src/hammerapi"]

@@ -12,7 +12,7 @@ A lightweight, blazing-fast, multi-threaded API performance and load testing lib
 ## 🚀 Installation
 
 ```bash
-pip install hammerAPIpy
+pip install hammerAPI-tool
 ```
 
 ---

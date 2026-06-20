@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo_readme.png" alt="hammerAPI" width="500">
+  <img src="logo_readme.png" alt="hammerAPI">
 </p>
 
 # 🔨 HammerAPI
